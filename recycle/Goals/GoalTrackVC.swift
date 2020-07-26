@@ -20,6 +20,7 @@ class GoalTrackVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //subtracts 1 from the total count and if result is 0 displays a check mark
     @IBAction func finishGoal(_ sender: Any) {
         if let a = itemsLeft.text{
             if let b = Int(a){
@@ -36,10 +37,13 @@ class GoalTrackVC: UIViewController {
             }
         }
     }
+    
+    //returns to previous view controller
     @IBAction func goHome(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
+    //increments the add goal
     @IBAction func addOne(_ sender: Any) {
         if let a = itemNumber.text{
             if let b = Int(a){
@@ -49,6 +53,7 @@ class GoalTrackVC: UIViewController {
         }
     }
     
+    //decrements the add goal
     @IBAction func minusOne(_ sender: Any) {
         if let a = itemNumber.text{
             if let b = Int(a){
@@ -58,6 +63,7 @@ class GoalTrackVC: UIViewController {
         }
     }
     
+    //adds goal to total count
     @IBAction func addGoal(_ sender: Any) {
         if let a = itemNumber.text{
             if let b = Int(a){
@@ -78,6 +84,7 @@ class GoalTrackVC: UIViewController {
         }
     }
     
+    //clears the goal
     @IBAction func clearGoal(_ sender: Any) {
         itemsLeft.text = "0"
     }
