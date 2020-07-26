@@ -10,6 +10,8 @@ import UIKit
 import CoreData
 
 class ViewController: UIViewController {
+    
+    //IBOutlets for Buttons
     @IBOutlet weak var recycleButton: UIButton!
     
     @IBOutlet weak var moneyButton: UIButton!
@@ -22,6 +24,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var goalButton: UIButton!
     
     
+    //Performs Segues when button is pressed
     @IBAction func gotophotovc(_ sender: Any) {
         performSegue(withIdentifier: "segueToPhoto", sender: self)
     }
