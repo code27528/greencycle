@@ -27,12 +27,14 @@ class LocationMenuVC: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var pickupButton: UIButton!
     @IBOutlet weak var routeButton: UIButton!
     
+    //creates array of locations and sets up map view
     public var coordinates: [customIn] = []
     let manager = CLLocationManager()
     var userCoord: CLLocationCoordinate2D?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //modifies buttons and sets up map view further
         cashButton.layer.cornerRadius = 8
         wasteButton.layer.cornerRadius = 8
         otherButton.layer.cornerRadius = 8
@@ -48,6 +50,7 @@ class LocationMenuVC: UIViewController, CLLocationManagerDelegate {
         }
         // Do any additional setup after loading the view.
     }
+    //passes data forward in the view controller
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.destination is SecurityVC{
             let vc = segue.destination as? SecurityVC
@@ -67,6 +70,7 @@ class LocationMenuVC: UIViewController, CLLocationManagerDelegate {
         manager.requestWhenInUseAuthorization()
         manager.startUpdatingLocation()
     }
+    //creates array of locations
     func createArray() -> [customIn]{
         var tempArray: [customIn] = []
         
