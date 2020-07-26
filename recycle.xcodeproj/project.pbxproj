@@ -7,23 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F600B0C824CA6F13002CDFB7 /* SecondPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600B0C624CA5772002CDFB7 /* SecondPhotoVC.swift */; };
+		F600B0CC24CAA4F6002CDFB7 /* MyBinClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F600B0CB24CAA4F5002CDFB7 /* MyBinClassifier.mlmodel */; };
+		F600B0E824CAACDD002CDFB7 /* RecycleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600B0DA24CAAB65002CDFB7 /* RecycleItem.swift */; };
+		F600B0E924CAACE1002CDFB7 /* RecycleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600B0CD24CAA630002CDFB7 /* RecycleVC.swift */; };
+		F600B0EA24CAACE5002CDFB7 /* TrashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600B0D124CAA666002CDFB7 /* TrashVC.swift */; };
+		F600B0EB24CAACE8002CDFB7 /* TrashItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600B0DC24CAAB77002CDFB7 /* TrashItem.swift */; };
+		F600B0EC24CAACEC002CDFB7 /* TrashCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600B0E224CAAC19002CDFB7 /* TrashCell.swift */; };
+		F600B0ED24CAACEF002CDFB7 /* CompostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600B0CF24CAA646002CDFB7 /* CompostVC.swift */; };
+		F600B0EE24CAACF2002CDFB7 /* CompostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600B0DE24CAABAB002CDFB7 /* CompostItem.swift */; };
+		F600B0EF24CAACF6002CDFB7 /* CompostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600B0E424CAAC3C002CDFB7 /* CompostCell.swift */; };
+		F6550BBD24CBACB300B34141 /* CashMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6550BBC24CBACB300B34141 /* CashMapVC.swift */; };
+		F6550BBF24CBACCB00B34141 /* WasteMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6550BBE24CBACCB00B34141 /* WasteMapVC.swift */; };
+		F6550BC124CBAD1600B34141 /* OtherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6550BC024CBAD1600B34141 /* OtherVC.swift */; };
+		F6550BC424CBDAAB00B34141 /* SecurityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6550BC324CBDAAB00B34141 /* SecurityVC.swift */; };
+		F6550BC524CBDAF600B34141 /* LocationMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6550BB924CBA9F900B34141 /* LocationMenuVC.swift */; };
+		F6550BC824CBE99700B34141 /* RouteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6550BC624CBDF6B00B34141 /* RouteVC.swift */; };
+		F6550BCB24CD08F000B34141 /* ItemBinClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F6550BC924CD08CA00B34141 /* ItemBinClassifier.mlmodel */; };
+		F667EE1C24C6344B00E65C09 /* ConversionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F667EE1B24C6344B00E65C09 /* ConversionVC.swift */; };
+		F667EE1E24C654E600E65C09 /* BottleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F667EE1D24C654E600E65C09 /* BottleTextField.swift */; };
+		F667EE2224C65C0100E65C09 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = F667EE2124C65C0100E65C09 /* Money.swift */; };
+		F667EE2824C6924000E65C09 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F667EE2724C6924000E65C09 /* MapVC.swift */; };
+		F66EBA3624C7ADE1004DCF92 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F66EBA3524C7ADE1004DCF92 /* GoogleService-Info.plist */; };
+		F66EBA5924C8E11D004DCF92 /* post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66EBA5724C8E08E004DCF92 /* post.swift */; };
+		F672232024CB671A00C10A56 /* RecycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600B0E024CAABE0002CDFB7 /* RecycleCell.swift */; };
 		F6AD3F9924C607D800192651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AD3F9824C607D800192651 /* AppDelegate.swift */; };
 		F6AD3F9B24C607D800192651 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AD3F9A24C607D800192651 /* SceneDelegate.swift */; };
 		F6AD3F9D24C607D800192651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AD3F9C24C607D800192651 /* ViewController.swift */; };
 		F6AD3FA024C607D800192651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AD3F9E24C607D800192651 /* Main.storyboard */; };
 		F6AD3FA224C607DC00192651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AD3FA124C607DC00192651 /* Assets.xcassets */; };
 		F6AD3FA524C607DC00192651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AD3FA324C607DC00192651 /* LaunchScreen.storyboard */; };
+		F6AD3FAD24C60B6500192651 /* PhotoPreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AD3FAC24C60B6500192651 /* PhotoPreviewVC.swift */; };
+		F6AD3FAF24C617AF00192651 /* PhotoTakeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AD3FAE24C617AF00192651 /* PhotoTakeVC.swift */; };
+		F6BF036E24C7681900A40ED3 /* GoalTrackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF036D24C7681900A40ED3 /* GoalTrackVC.swift */; };
+		F6DB665F24C946BB00FA80D9 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66EBA5024C8D805004DCF92 /* PostCell.swift */; };
+		F6DB666124C9478500FA80D9 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66EBA5A24C8E8F5004DCF92 /* AddPostVC.swift */; };
+		F6DB666524C9593E00FA80D9 /* SaveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66EBA4E24C8D167004DCF92 /* SaveVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F6AD3F9524C607D800192651 /* recycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6AD3F9824C607D800192651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6AD3F9A24C607D800192651 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F600B0C624CA5772002CDFB7 /* SecondPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPhotoVC.swift; sourceTree = "<group>"; };
+		F600B0CB24CAA4F5002CDFB7 /* MyBinClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyBinClassifier.mlmodel; sourceTree = "<group>"; };
+		F600B0CD24CAA630002CDFB7 /* RecycleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleVC.swift; sourceTree = "<group>"; };
+		F600B0CF24CAA646002CDFB7 /* CompostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompostVC.swift; sourceTree = "<group>"; };
+		F600B0D124CAA666002CDFB7 /* TrashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashVC.swift; sourceTree = "<group>"; };
+		F600B0DA24CAAB65002CDFB7 /* RecycleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleItem.swift; sourceTree = "<group>"; };
+		F600B0DC24CAAB77002CDFB7 /* TrashItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashItem.swift; sourceTree = "<group>"; };
+		F600B0DE24CAABAB002CDFB7 /* CompostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompostItem.swift; sourceTree = "<group>"; };
+		F600B0E024CAABE0002CDFB7 /* RecycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleCell.swift; sourceTree = "<group>"; };
+		F600B0E224CAAC19002CDFB7 /* TrashCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashCell.swift; sourceTree = "<group>"; };
+		F600B0E424CAAC3C002CDFB7 /* CompostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompostCell.swift; sourceTree = "<group>"; };
+		F6550BB924CBA9F900B34141 /* LocationMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMenuVC.swift; sourceTree = "<group>"; };
+		F6550BBC24CBACB300B34141 /* CashMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashMapVC.swift; sourceTree = "<group>"; };
+		F6550BBE24CBACCB00B34141 /* WasteMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteMapVC.swift; sourceTree = "<group>"; };
+		F6550BC024CBAD1600B34141 /* OtherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherVC.swift; sourceTree = "<group>"; };
+		F6550BC324CBDAAB00B34141 /* SecurityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityVC.swift; sourceTree = "<group>"; };
+		F6550BC624CBDF6B00B34141 /* RouteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteVC.swift; sourceTree = "<group>"; };
+		F6550BC924CD08CA00B34141 /* ItemBinClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ItemBinClassifier.mlmodel; sourceTree = "<group>"; };
+		F667EE1B24C6344B00E65C09 /* ConversionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionVC.swift; sourceTree = "<group>"; };
+		F667EE1D24C654E600E65C09 /* BottleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleTextField.swift; sourceTree = "<group>"; };
+		F667EE2124C65C0100E65C09 /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		F667EE2724C6924000E65C09 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		F66EBA3524C7ADE1004DCF92 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F66EBA4E24C8D167004DCF92 /* SaveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveVC.swift; sourceTree = "<group>"; };
+		F66EBA5024C8D805004DCF92 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		F66EBA5724C8E08E004DCF92 /* post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = post.swift; sourceTree = "<group>"; };
+		F66EBA5A24C8E8F5004DCF92 /* AddPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
+		F6AD3F9524C607D800192651 /* GreenCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6AD3F9824C607D800192651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../New Group/AppDelegate.swift"; sourceTree = "<group>"; };
+		F6AD3F9A24C607D800192651 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../New Group/SceneDelegate.swift"; sourceTree = "<group>"; };
 		F6AD3F9C24C607D800192651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6AD3F9F24C607D800192651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6AD3FA124C607DC00192651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6AD3FA424C607DC00192651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6AD3FA624C607DC00192651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AD3FAC24C60B6500192651 /* PhotoPreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewVC.swift; sourceTree = "<group>"; };
+		F6AD3FAE24C617AF00192651 /* PhotoTakeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTakeVC.swift; sourceTree = "<group>"; };
+		F6BF036D24C7681900A40ED3 /* GoalTrackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTrackVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +97,111 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F600B0D624CAAAE5002CDFB7 /* RecycleTable */ = {
+			isa = PBXGroup;
+			children = (
+				F600B0CD24CAA630002CDFB7 /* RecycleVC.swift */,
+				F600B0DA24CAAB65002CDFB7 /* RecycleItem.swift */,
+				F600B0E024CAABE0002CDFB7 /* RecycleCell.swift */,
+			);
+			path = RecycleTable;
+			sourceTree = "<group>";
+		};
+		F600B0D724CAAB00002CDFB7 /* TrashTable */ = {
+			isa = PBXGroup;
+			children = (
+				F600B0D124CAA666002CDFB7 /* TrashVC.swift */,
+				F600B0DC24CAAB77002CDFB7 /* TrashItem.swift */,
+				F600B0E224CAAC19002CDFB7 /* TrashCell.swift */,
+			);
+			path = TrashTable;
+			sourceTree = "<group>";
+		};
+		F600B0D924CAAB23002CDFB7 /* CompostTable */ = {
+			isa = PBXGroup;
+			children = (
+				F600B0CF24CAA646002CDFB7 /* CompostVC.swift */,
+				F600B0DE24CAABAB002CDFB7 /* CompostItem.swift */,
+				F600B0E424CAAC3C002CDFB7 /* CompostCell.swift */,
+			);
+			path = CompostTable;
+			sourceTree = "<group>";
+		};
+		F6550BCC24CD3A7600B34141 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				F6AD3F9A24C607D800192651 /* SceneDelegate.swift */,
+				F6AD3F9C24C607D800192651 /* ViewController.swift */,
+				F6AD3F9824C607D800192651 /* AppDelegate.swift */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		F66EBA3E24C7FB07004DCF92 /* RecycleLearn */ = {
+			isa = PBXGroup;
+			children = (
+				F6550BC924CD08CA00B34141 /* ItemBinClassifier.mlmodel */,
+				F600B0CB24CAA4F5002CDFB7 /* MyBinClassifier.mlmodel */,
+				F6AD3FAC24C60B6500192651 /* PhotoPreviewVC.swift */,
+				F600B0C624CA5772002CDFB7 /* SecondPhotoVC.swift */,
+				F6AD3FAE24C617AF00192651 /* PhotoTakeVC.swift */,
+				F600B0D624CAAAE5002CDFB7 /* RecycleTable */,
+				F600B0D724CAAB00002CDFB7 /* TrashTable */,
+				F600B0D924CAAB23002CDFB7 /* CompostTable */,
+			);
+			path = RecycleLearn;
+			sourceTree = "<group>";
+		};
+		F66EBA3F24C7FB39004DCF92 /* Conversions */ = {
+			isa = PBXGroup;
+			children = (
+				F667EE2124C65C0100E65C09 /* Money.swift */,
+				F667EE1D24C654E600E65C09 /* BottleTextField.swift */,
+				F667EE1B24C6344B00E65C09 /* ConversionVC.swift */,
+			);
+			path = Conversions;
+			sourceTree = "<group>";
+		};
+		F66EBA4024C7FB59004DCF92 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				F667EE2724C6924000E65C09 /* MapVC.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		F66EBA4324C7FBB8004DCF92 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				F6BF036D24C7681900A40ED3 /* GoalTrackVC.swift */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		F66EBA4B24C8D118004DCF92 /* CommunityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F66EBA4E24C8D167004DCF92 /* SaveVC.swift */,
+				F66EBA5A24C8E8F5004DCF92 /* AddPostVC.swift */,
+				F66EBA5724C8E08E004DCF92 /* post.swift */,
+				F66EBA5024C8D805004DCF92 /* PostCell.swift */,
+			);
+			path = CommunityViewController;
+			sourceTree = "<group>";
+		};
+		F672232124CBA97A00C10A56 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				F6550BB924CBA9F900B34141 /* LocationMenuVC.swift */,
+				F6550BBC24CBACB300B34141 /* CashMapVC.swift */,
+				F6550BBE24CBACCB00B34141 /* WasteMapVC.swift */,
+				F6550BC024CBAD1600B34141 /* OtherVC.swift */,
+				F6550BC324CBDAAB00B34141 /* SecurityVC.swift */,
+				F6550BC624CBDF6B00B34141 /* RouteVC.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
 		F6AD3F8C24C607D800192651 = {
 			isa = PBXGroup;
 			children = (
@@ -48,7 +213,7 @@
 		F6AD3F9624C607D800192651 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6AD3F9524C607D800192651 /* recycle.app */,
+				F6AD3F9524C607D800192651 /* GreenCycle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,13 +221,18 @@
 		F6AD3F9724C607D800192651 /* recycle */ = {
 			isa = PBXGroup;
 			children = (
-				F6AD3F9824C607D800192651 /* AppDelegate.swift */,
-				F6AD3F9A24C607D800192651 /* SceneDelegate.swift */,
-				F6AD3F9C24C607D800192651 /* ViewController.swift */,
+				F6550BCC24CD3A7600B34141 /* MVC */,
+				F672232124CBA97A00C10A56 /* Location */,
+				F66EBA4B24C8D118004DCF92 /* CommunityViewController */,
+				F66EBA4324C7FBB8004DCF92 /* Goals */,
+				F66EBA4024C7FB59004DCF92 /* Maps */,
+				F66EBA3F24C7FB39004DCF92 /* Conversions */,
+				F66EBA3E24C7FB07004DCF92 /* RecycleLearn */,
 				F6AD3F9E24C607D800192651 /* Main.storyboard */,
-				F6AD3FA124C607DC00192651 /* Assets.xcassets */,
 				F6AD3FA324C607DC00192651 /* LaunchScreen.storyboard */,
+				F6AD3FA124C607DC00192651 /* Assets.xcassets */,
 				F6AD3FA624C607DC00192651 /* Info.plist */,
+				F66EBA3524C7ADE1004DCF92 /* GoogleService-Info.plist */,
 			);
 			path = recycle;
 			sourceTree = "<group>";
@@ -84,7 +254,7 @@
 			);
 			name = recycle;
 			productName = recycle;
-			productReference = F6AD3F9524C607D800192651 /* recycle.app */;
+			productReference = F6AD3F9524C607D800192651 /* GreenCycle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6AD3FA524C607DC00192651 /* LaunchScreen.storyboard in Resources */,
+				F66EBA3624C7ADE1004DCF92 /* GoogleService-Info.plist in Resources */,
 				F6AD3FA224C607DC00192651 /* Assets.xcassets in Resources */,
 				F6AD3FA024C607D800192651 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +309,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6550BBD24CBACB300B34141 /* CashMapVC.swift in Sources */,
+				F6AD3FAD24C60B6500192651 /* PhotoPreviewVC.swift in Sources */,
+				F600B0E924CAACE1002CDFB7 /* RecycleVC.swift in Sources */,
+				F600B0EB24CAACE8002CDFB7 /* TrashItem.swift in Sources */,
 				F6AD3F9D24C607D800192651 /* ViewController.swift in Sources */,
+				F6DB666124C9478500FA80D9 /* AddPostVC.swift in Sources */,
+				F66EBA5924C8E11D004DCF92 /* post.swift in Sources */,
+				F667EE1C24C6344B00E65C09 /* ConversionVC.swift in Sources */,
+				F667EE2224C65C0100E65C09 /* Money.swift in Sources */,
+				F6BF036E24C7681900A40ED3 /* GoalTrackVC.swift in Sources */,
+				F667EE2824C6924000E65C09 /* MapVC.swift in Sources */,
+				F672232024CB671A00C10A56 /* RecycleCell.swift in Sources */,
+				F667EE1E24C654E600E65C09 /* BottleTextField.swift in Sources */,
+				F6550BC524CBDAF600B34141 /* LocationMenuVC.swift in Sources */,
+				F600B0EF24CAACF6002CDFB7 /* CompostCell.swift in Sources */,
+				F6550BC824CBE99700B34141 /* RouteVC.swift in Sources */,
 				F6AD3F9924C607D800192651 /* AppDelegate.swift in Sources */,
+				F6DB666524C9593E00FA80D9 /* SaveVC.swift in Sources */,
+				F600B0EC24CAACEC002CDFB7 /* TrashCell.swift in Sources */,
+				F600B0ED24CAACEF002CDFB7 /* CompostVC.swift in Sources */,
+				F6AD3FAF24C617AF00192651 /* PhotoTakeVC.swift in Sources */,
+				F6550BC124CBAD1600B34141 /* OtherVC.swift in Sources */,
+				F6550BBF24CBACCB00B34141 /* WasteMapVC.swift in Sources */,
+				F600B0C824CA6F13002CDFB7 /* SecondPhotoVC.swift in Sources */,
+				F600B0E824CAACDD002CDFB7 /* RecycleItem.swift in Sources */,
 				F6AD3F9B24C607D800192651 /* SceneDelegate.swift in Sources */,
+				F600B0EA24CAACE5002CDFB7 /* TrashVC.swift in Sources */,
+				F600B0CC24CAA4F6002CDFB7 /* MyBinClassifier.mlmodel in Sources */,
+				F6550BC424CBDAAB00B34141 /* SecurityVC.swift in Sources */,
+				F600B0EE24CAACF2002CDFB7 /* CompostItem.swift in Sources */,
+				F6550BCB24CD08F000B34141 /* ItemBinClassifier.mlmodel in Sources */,
+				F6DB665F24C946BB00FA80D9 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = a.recycle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GreenCycle;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +510,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = a.recycle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GreenCycle;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
