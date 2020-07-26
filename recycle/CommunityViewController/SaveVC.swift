@@ -26,7 +26,11 @@ struct itemImage{
     var imageForItem: UIImage
 }*/
 
+
+
 class SaveVC: UIViewController, MFMessageComposeViewControllerDelegate, MFMailComposeViewControllerDelegate{
+    
+    //sets up message and mail view controller
     func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
         sleep(1)
         self.dismiss(animated: true, completion: nil)
@@ -54,6 +58,8 @@ class SaveVC: UIViewController, MFMessageComposeViewControllerDelegate, MFMailCo
         posts = createArray()
         // Do any additional setup after loading the view.
     }
+    
+    //passes data forward in the view controller
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let viewControllerB = segue.destination as? AddPostVC {
             viewControllerB.callback = { message in
@@ -79,6 +85,7 @@ class SaveVC: UIViewController, MFMessageComposeViewControllerDelegate, MFMailCo
         
     }
     
+    //creates array of type post
     func createArray() -> [post]{
         var tempPosts: [post] = []
         let image1 = UIImage(named: "chairImage")
@@ -107,6 +114,8 @@ class SaveVC: UIViewController, MFMessageComposeViewControllerDelegate, MFMailCo
         }
         return tempPosts
     }
+    
+    //adds a post item to an array
     func addToArray(imageName: UIImage?, description: String, contactInfo: String) -> post?{
         guard let image1 = imageName else{return nil}
         let post1 = post(image: image1, description: description, contactInfo: contactInfo)
@@ -123,6 +132,7 @@ class SaveVC: UIViewController, MFMessageComposeViewControllerDelegate, MFMailCo
         performSegue(withIdentifier: "segueOne", sender: self)
     }
     
+    //posts the current post to the table view or displays an alert
     @IBAction func postButtonPressed(_ sender: Any) {
         if let image1 = fakeImage.image{
             if let text1 = fakeLabel1.text{
@@ -181,6 +191,7 @@ class SaveVC: UIViewController, MFMessageComposeViewControllerDelegate, MFMailCo
 
 }
 
+//sets up the table view
 extension SaveVC: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let poster = posts[indexPath.row]
@@ -200,6 +211,7 @@ extension SaveVC: UITableViewDelegate, UITableViewDataSource{
     }
 }
 
+//sets up the mail view controller
 extension SaveVC: PostCellDelegate{
     func didTapButton(with owner: String, with description: String) {
         showMailComposer(contacter: owner, titleInfo: description)
